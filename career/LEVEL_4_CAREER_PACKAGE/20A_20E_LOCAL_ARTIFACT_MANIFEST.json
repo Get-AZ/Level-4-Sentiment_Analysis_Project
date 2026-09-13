@@ -1,0 +1,46 @@
+{
+  "level": 4,
+  "part": 15,
+  "steps": [
+    "20A",
+    "20B",
+    "20C",
+    "20D",
+    "20E"
+  ],
+  "execution_mode": "CONTROLLED LOCAL FILE CREATION",
+  "github_mutation": false,
+  "git_commit": false,
+  "git_push": false,
+  "model_mutation": false,
+  "dataset_mutation": false,
+  "training": false,
+  "artifact_count": 5,
+  "artifacts": [
+    {
+      "relative_path": "career/LEVEL_4_CAREER_PACKAGE/20A_PORTFOLIO/LEVEL_4_PORTFOLIO_CASE_STUDY.md",
+      "bytes": 3090,
+      "sha256": "5fba2f4b4475d0804bd7e2aab265cf001c6671985a170820d6ff5e2e045610b9"
+    },
+    {
+      "relative_path": "career/LEVEL_4_CAREER_PACKAGE/20B_SHORT_CV/LEVEL_4_SHORT_CV_RESUME.md",
+      "bytes": 1060,
+      "sha256": "6bca92bd9cbbfea32fd4240eded431ecc3d3b028c842a68631406adba3ac2315"
+    },
+    {
+      "relative_path": "career/LEVEL_4_CAREER_PACKAGE/20C_LONG_CV/LEVEL_4_LONG_TECHNICAL_CV.md",
+      "bytes": 3628,
+      "sha256": "8e447c434a30284a4d11488d264b9d55d2d15ec433c4745f4d9aa2d3bee9bb46"
+    },
+    {
+      "relative_path": "career/LEVEL_4_CAREER_PACKAGE/20D_LINKEDIN/LEVEL_4_LINKEDIN_PROFESSIONAL_PACKAGE.md",
+      "bytes": 2063,
+      "sha256": "691d61d4b491e2b5791a6ae26365e04553db07dfb1eb913bd3602ef45635ea74"
+    },
+    {
+      "relative_path": "career/LEVEL_4_CAREER_PACKAGE/20E_GITHUB/LEVEL_4_GITHUB_PROFESSIONAL_PACKAGE.md",
+      "bytes": 2520,
+      "sha256": "a38414ec26694973cb2b1582d15f950416514716d9146a1a58f017d67b3f8305"
+    }
+  ]
+}
