@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Google Colab
+.config/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large model artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training checkpoints
+checkpoint-*/
+checkpoints/
+
+# Local model directories
+transformer/models/
+transformer/final_release/model/
+transformer/final_release/best_model/
+transformer/final_release/tokenizer/
+
+# Generated release package
+transformer/final_release/
+
+# Generated reports
+transformer/outputs/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,79 @@
+{
+    "project": "Sentiment Analysis Project",
+    "part": "Part 14",
+    "step": "Step 15",
+    "title": "Final Master Release Audit & Project Closure",
+    "status": "PASSED",
+    "project_status": "PRODUCTION READY",
+    "release_status": "COMPLETE",
+    "final_model": {
+        "name": "DistilBERT",
+        "accuracy": 0.919726,
+        "precision": 0.919006,
+        "recall": 0.921222,
+        "f1": 0.920112,
+        "roc_auc": 0.974866
+    },
+    "tfidf_comparison": {
+        "tfidf_accuracy": 0.9004,
+        "distilbert_accuracy": 0.919726,
+        "accuracy_gain_percentage_points": 1.9326000000000065,
+        "all_metrics_improved": true
+    },
+    "confidence": {
+        "average_confidence": 0.9835,
+        "correct_average_confidence": 0.9887,
+        "incorrect_average_confidence": 0.9248,
+        "confidence_gap": 0.0638,
+        "low_confidence_records": 74,
+        "high_confidence_errors": 307,
+        "recommended_threshold": 0.7,
+        "coverage": 0.9851,
+        "accuracy_at_threshold": 0.9251
+    },
+    "validation": {
+        "Project structure": true,
+        "Step 12 completion validation": true,
+        "Step 13 release package": true,
+        "Step 14 GitHub preparation": true,
+        "Final DistilBERT model": true,
+        "Best DistilBERT model": true,
+        "Tokenizer artifacts": true,
+        "Streamlit application": true,
+        "Model inference references": true,
+        "TF-IDF deployment removal": true,
+        "Performance thresholds": true,
+        "Confidence reliability": true,
+        "SHA256 integrity": true,
+        "Release manifest": true,
+        "GitHub README": true,
+        "GitHub documentation": true,
+        ".gitignore safety": true,
+        "Large-file protection": true,
+        "Portfolio summary": true,
+        "Release notes": true,
+        "Artifact inventory": true
+    },
+    "artifact_counts": {
+        "Project": 417,
+        "Transformer": 156,
+        "Models": 16,
+        "Outputs": 88,
+        "Final Release": 15,
+        "GitHub Release": 11
+    },
+    "paths": {
+        "project": "/content/drive/MyDrive/Colab Notebooks/ML my Projects/Sentiment_Analysis_Project",
+        "transformer": "/content/drive/MyDrive/Colab Notebooks/ML my Projects/Sentiment_Analysis_Project/transformer",
+        "final_release": "/content/drive/MyDrive/Colab Notebooks/ML my Projects/Sentiment_Analysis_Project/transformer/final_release",
+        "github_release": "/content/drive/MyDrive/Colab Notebooks/ML my Projects/Sentiment_Analysis_Project/transformer/github_release"
+    },
+    "completion": {
+        "step_12": "PASSED",
+        "step_13": "PASSED",
+        "step_14": "PASSED",
+        "step_15": "PASSED",
+        "part_14": "COMPLETE"
+    },
+    "created_at": "2026-08-14T22:26:37.543185"
+}
