@@ -16,6 +16,18 @@ Start the Streamlit application:
 streamlit run app.py
 ```
 
+## Model and Runtime
+
+The Streamlit application uses the validated DistilBERT Transformer model for binary sentiment classification.
+
+The inference stack uses:
+- Hugging Face Transformers
+- PyTorch
+- DistilBERT
+- Streamlit
+
+The application loads the trained model and tokenizer for inference and returns the predicted sentiment, probability, and confidence.
+
 ## Prediction
 
 The application accepts review text and returns:
