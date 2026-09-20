@@ -1,3 +1,5 @@
+![Level 4 Sentiment Analysis](./Level%204.png?raw=true)
+
 # Sentiment Analysis with DistilBERT
 
 A production-ready NLP sentiment-analysis application using
